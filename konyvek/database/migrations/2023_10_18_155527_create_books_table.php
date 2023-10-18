@@ -21,14 +21,14 @@ return new class extends Migration
         });
     
         Book::create([
-            'author' => 'Ludányi Bettina', 
+            'author' => "Ludányi Bettina", 
             'title' => 'Thriller',
-            'pieces'=> 32]);
+            'pieces'=> 42]);
 
             Book::create([
                 'author' => 'Baráth Viktória', 
                 'title' => 'Regény',
-                'pieces'=> 78]);
+                'pieces'=> 16]);
                 
                 Book::create([
                     'author' => 'Borsa Brown', 
